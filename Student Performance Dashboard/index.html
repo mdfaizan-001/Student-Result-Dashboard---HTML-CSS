@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>Student Performance Dashboard</h1>
+            <p>B.Tech CSE - Student Academic Record</p>
+        </header>
+
+        <!-- Summary Section -->
+        <section class="summary">
+
+            <div class="card">
+                <h3>Total Students</h3>
+                <h2>25</h2>
+            </div>
+
+            <div class="card">
+                <h3>Passed Students</h3>
+                <h2>18</h2>
+            </div>
+
+            <div class="card">
+                <h3>Failed Students</h3>
+                <h2>3</h2>
+            </div>
+
+            <div class="card">
+                <h3>Re-Appear</h3>
+                <h2>4</h2>
+            </div>
+        </section>
+
+        <!-- Student Table -->
+        <section class="table-section">
+            <h2>Student Records</h2>
+
+            <table>
+
+                <!-- Table Header -->
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Roll No</th>
+                        <th>Name</th>
+                        <th>Course</th>
+                        <th>DSA</th>
+                        <th>Web Dev</th>
+                        <th>Maths</th>
+                        <th>Total</th>
+                        <th>Percentage</th>
+                        <th>Grade</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <!-- Table Body -->
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>113</td>
+                        <td class="name">Md Faizan</td>
+                        <td>B.Tech CSE</td>
+                        <td>85</td>
+                        <td>91</td>
+                        <td>78</td>
+                        <td>254</td>
+                        <td>84.7%</td>
+                        <td>A</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>104</td>
+                        <td class="name">Prince</td>
+                        <td>B.Tech CSE</td>
+                        <td>76</td>
+                        <td>88</td>
+                        <td>82</td>
+                        <td>246</td>
+                        <td>82%</td>
+                        <td>A</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>015</td>
+                        <td class="name">Mozahida</td>
+                        <td>B.Tech CSE</td>
+                        <td>92</td>
+                        <td>95</td>
+                        <td>89</td>
+                        <td>276</td>
+                        <td>92%</td>
+                        <td>A+</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>016</td>
+                        <td class="name">Aditi</td>
+                        <td>B.Tech CSE</td>
+                        <td>68</td>
+                        <td>74</td>
+                        <td>71</td>
+                        <td>213</td>
+                        <td>71%</td>
+                        <td>B</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>117</td>
+                        <td class="name">Rahul</td>
+                        <td>B.Tech CSE</td>
+                        <td>35</td>
+                        <td>62</td>
+                        <td>58</td>
+                        <td>155</td>
+                        <td>51.7%</td>
+                        <td>F</td>
+                        <td><span class="fail">FAIL</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td>118</td>
+                        <td class="name">Anjali</td>
+                        <td>B.Tech CSE</td>
+                        <td>88</td>
+                        <td>84</td>
+                        <td>91</td>
+                        <td>263</td>
+                        <td>87.7%</td>
+                        <td>A</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td>119</td>
+                        <td class="name">Arjun</td>
+                        <td>B.Tech CSE</td>
+                        <td>72</td>
+                        <td>69</td>
+                        <td>75</td>
+                        <td>216</td>
+                        <td>72%</td>
+                        <td>B</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>8</td>
+                        <td>120</td>
+                        <td class="name">Neha</td>
+                        <td>B.Tech CSE</td>
+                        <td>79</td>
+                        <td>81</td>
+                        <td>85</td>
+                        <td>245</td>
+                        <td>81.7%</td>
+                        <td>A</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>9</td>
+                        <td>121</td>
+                        <td class="name">Adil</td>
+                        <td>B.Tech CSE</td>
+                        <td>82</td>
+                        <td>78</td>
+                        <td>80</td>
+                        <td>240</td>
+                        <td>80%</td>
+                        <td>A</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>10</td>
+                        <td>122</td>
+                        <td class="name">Simran</td>
+                        <td>B.Tech CSE</td>
+                        <td>74</td>
+                        <td>76</td>
+                        <td>72</td>
+                        <td>222</td>
+                        <td>74%</td>
+                        <td>B</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>11</td>
+                        <td>123</td>
+                        <td class="name">Karan</td>
+                        <td>B.Tech CSE</td>
+                        <td>78</td>
+                        <td>35</td>
+                        <td>82</td>
+                        <td>195</td>
+                        <td>65%</td>
+                        <td>RA</td>
+                        <td><span class="reappear">RE-APPEAR</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>12</td>
+                        <td>124</td>
+                        <td class="name">Priya</td>
+                        <td>B.Tech CSE</td>
+                        <td>86</td>
+                        <td>89</td>
+                        <td>84</td>
+                        <td>259</td>
+                        <td>86.3%</td>
+                        <td>A</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>13</td>
+                        <td>125</td>
+                        <td class="name">Aditya</td>
+                        <td>B.Tech CSE</td>
+                        <td>67</td>
+                        <td>71</td>
+                        <td>69</td>
+                        <td>207</td>
+                        <td>69%</td>
+                        <td>B</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>14</td>
+                        <td>126</td>
+                        <td class="name">Sakshi</td>
+                        <td>B.Tech CSE</td>
+                        <td>91</td>
+                        <td>87</td>
+                        <td>94</td>
+                        <td>272</td>
+                        <td>90.7%</td>
+                        <td>A+</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>15</td>
+                        <td>127</td>
+                        <td class="name">Hasibul</td>
+                        <td>B.Tech CSE</td>
+                        <td>88</td>
+                        <td>42</td>
+                        <td>79</td>
+                        <td>209</td>
+                        <td>69.7%</td>
+                        <td>RA</td>
+                        <td><span class="reappear">RE-APPEAR</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>16</td>
+                        <td>128</td>
+                        <td class="name">Rakhi</td>
+                        <td>B.Tech CSE</td>
+                        <td>73</td>
+                        <td>77</td>
+                        <td>81</td>
+                        <td>231</td>
+                        <td>77%</td>
+                        <td>B+</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>17</td>
+                        <td>129</td>
+                        <td class="name">Vishal</td>
+                        <td>B.Tech CSE</td>
+                        <td>84</td>
+                        <td>82</td>
+                        <td>86</td>
+                        <td>252</td>
+                        <td>84%</td>
+                        <td>A</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>18</td>
+                        <td>130</td>
+                        <td class="name">Nisha</td>
+                        <td>B.Tech CSE</td>
+                        <td>81</td>
+                        <td>38</td>
+                        <td>76</td>
+                        <td>195</td>
+                        <td>65%</td>
+                        <td>RA</td>
+                        <td><span class="reappear">RE-APPEAR</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>19</td>
+                        <td>131</td>
+                        <td class="name">Himanshu</td>
+                        <td>B.Tech CSE</td>
+                        <td>70</td>
+                        <td>75</td>
+                        <td>73</td>
+                        <td>218</td>
+                        <td>72.7%</td>
+                        <td>B</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>20</td>
+                        <td>132</td>
+                        <td class="name">Ishita</td>
+                        <td>B.Tech CSE</td>
+                        <td>89</td>
+                        <td>92</td>
+                        <td>87</td>
+                        <td>268</td>
+                        <td>89.3%</td>
+                        <td>A+</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>21</td>
+                        <td>133</td>
+                        <td class="name">Manish</td>
+                        <td>B.Tech CSE</td>
+                        <td>36</td>
+                        <td>79</td>
+                        <td>72</td>
+                        <td>187</td>
+                        <td>62.3%</td>
+                        <td>RA</td>
+                        <td><span class="reappear">RE-APPEAR</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>22</td>
+                        <td>134</td>
+                        <td class="name">Shreya</td>
+                        <td>B.Tech CSE</td>
+                        <td>77</td>
+                        <td>83</td>
+                        <td>80</td>
+                        <td>240</td>
+                        <td>80%</td>
+                        <td>A</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>23</td>
+                        <td>135</td>
+                        <td class="name">Ravi</td>
+                        <td>B.Tech CSE</td>
+                        <td>32</td>
+                        <td>45</td>
+                        <td>39</td>
+                        <td>116</td>
+                        <td>38.7%</td>
+                        <td>F</td>
+                        <td><span class="fail">FAIL</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>24</td>
+                        <td>136</td>
+                        <td class="name">Kavya</td>
+                        <td>B.Tech CSE</td>
+                        <td>41</td>
+                        <td>38</td>
+                        <td>35</td>
+                        <td>114</td>
+                        <td>38%</td>
+                        <td>F</td>
+                        <td><span class="fail">FAIL</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>25</td>
+                        <td>137</td>
+                        <td class="name">Varun</td>
+                        <td>B.Tech CSE</td>
+                        <td>83</td>
+                        <td>86</td>
+                        <td>81</td>
+                        <td>250</td>
+                        <td>83.3%</td>
+                        <td>A</td>
+                        <td><span class="pass">PASS</span></td>
+                    </tr>
+                </tbody>
+
+                <!-- Table Footer -->
+                <tfoot>
+                    <tr>
+                        <td colspan="7">Class Summary</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td colspan="2">18 Pass | 4 Re-Appear | 3 Fail</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Created using HTML & CSS by MFRN</p>
+        </footer>
+
+    </div>
+</body>
+</html>
