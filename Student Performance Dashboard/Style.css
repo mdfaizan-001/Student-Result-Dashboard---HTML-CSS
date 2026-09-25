@@ -1,9 +1,11 @@
 /*RESET*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /*BODY*/
 body {
     font-family: Arial, sans-serif;
@@ -11,11 +13,13 @@ body {
     color: #222;
     padding: 30px;
 }
+
 /*MAIN CONTAINER*/
 .container {
     max-width: 1400px;
     margin: auto;
 }
+
 /*HEADER*/
 header {
     background-color: white;
@@ -33,6 +37,7 @@ header p {
     color: #666;
     font-size: 16px;
 }
+
 /*SUMMARY CARDS*/
 .summary {
     display: grid;
@@ -59,6 +64,7 @@ header p {
 .card h2 {
     font-size: 30px;
 }
+
 /*TABLE SECTION*/
 .table-section {
     background-color: white;
@@ -71,6 +77,7 @@ header p {
     margin-bottom: 20px;
     font-size: 22px;
 }
+
 /*TABLE*/
 table {
     width: 100%;
@@ -78,6 +85,7 @@ table {
     /* 25 students ke liye horizontal scroll */
     min-width: 1100px;
 }
+
 /*TABLE HEADER*/
 thead {
     background-color: #222;
@@ -89,6 +97,7 @@ th {
     font-size: 14px;
     white-space: nowrap;
 }
+
 /*TABLE DATA*/
 td {
     padding: 14px;
@@ -96,6 +105,7 @@ td {
     border-bottom: 1px solid #ddd;
     font-size: 14px;
 }
+
 /*ROW HOVER*/
 tbody tr {
     transition: 0.2s ease;
@@ -103,10 +113,12 @@ tbody tr {
 tbody tr:hover {
     background-color: #f2f2f2;
 }
+
 /*STUDENT NAME*/
 .name {
     font-weight: bold;
 }
+
 /*PASS STATUS*/
 .pass {
     display: inline-block;
@@ -117,6 +129,7 @@ tbody tr:hover {
     font-size: 12px;
     font-weight: bold;
 }
+
 /*FAIL STATUS*/
 .fail {
     display: inline-block;
@@ -127,6 +140,7 @@ tbody tr:hover {
     font-size: 12px;
     font-weight: bold;
 }
+
 /*RE-APPEAR STATUS*/
 .reappear {
     display: inline-block;
@@ -138,6 +152,7 @@ tbody tr:hover {
     font-weight: bold;
     border: 1px solid #ffe69c;
 }
+
 /*TABLE FOOTER*/
 tfoot {
     background-color: #f1f1f1;
@@ -146,6 +161,7 @@ tfoot {
 tfoot td {
     padding: 15px;
 }
+
 /*FOOTER*/
 footer {
     text-align: center;
@@ -153,6 +169,7 @@ footer {
     color: #777;
     font-size: 14px;
 }
+
 /*RESPONSIVE DESIGN*/
 @media (max-width: 900px) {
     body {
@@ -168,6 +185,7 @@ footer {
         font-size: 28px;
     }
 }
+
 /*MOBILE*/
 @media (max-width: 500px) {
     .summary {
